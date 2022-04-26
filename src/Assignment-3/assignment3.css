@@ -1,7 +1,94 @@
 /* Our CSS file. */
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 .container, .content {
 width: 100%;
 height: 100%;
+}
+
+#idcont1{
+    background-color: #f2f2f2;
+    width: 100%;
+    /* height: 100%; */
+    height: 600px;
+}
+.left{
+    /* border: 2px solid black; */
+    padding: 40px 40px 0px 60px;
+    width: 45%;
+    display: inline-block;
+    /* height: 500px; */
+    height: 92%;
+
+    
+}
+.left p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.left h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    padding-top: 20px;
+}
+button{
+    border: 2px solid black;
+    padding: 15px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+.right{
+    /* border: 2px solid black; */
+    padding: 20px;
+    width: 45%;
+    /* height: 500px; */
+    height: 92%;
+    display: inline-block;
+    float: right;
+    
+}
+.right iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#idcont2{
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 1000px;
+}
+
+.top{
+    padding-top: 30px;
+    text-align: center;
+    height: 30%;
+}
+.top h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+.top p{
+    padding: 30px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.bottom{
+    width: 100%;
+    height: 70%;
+    
+}
+#render-dictionary{
+    padding-left: 370px;
+    padding-right: 370px;
+    width: 50%;
+    height: 100%;
+    
 }
